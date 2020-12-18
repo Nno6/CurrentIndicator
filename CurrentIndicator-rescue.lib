@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TC7S14F-nuno6Lib_other
+#
+DEF TC7S14F-nuno6Lib_other U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "TC7S14F-nuno6Lib_other" 0 190 50 H V C CNN
+F2 "" -64 -4 50 H I C CNN
+F3 "" -64 -4 50 H I C CNN
+DRAW
+C 22 0 15 0 1 0 N
+S -250 150 250 -150 0 1 0 N
+P 4 0 1 0 -91 48 -91 -47 3 0 -91 48 N
+P 4 0 1 0 -86 19 -66 19 -86 -20 -66 -20 N
+P 4 0 1 0 -66 19 -46 19 -66 -20 -47 -20 N
+X NC 1 -350 -100 100 R 50 50 0 0 N N
+X IN 2 -350 0 100 R 50 50 0 0 I
+X GND 3 350 -100 100 L 50 50 0 0 W
+X VCC 4 -350 100 100 R 50 50 0 0 W
+X OUT 5 350 0 100 L 50 50 0 0 O
+ENDDRAW
+ENDDEF
+#
+#End Library
